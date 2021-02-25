@@ -1,0 +1,62 @@
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	background: linear-gradient(to right, #1488cc, #2b32b2);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2,
+h3 {
+	margin: 20px 0;
+	text-align: center;
+}
+
+h2 {
+	font-size: 80px;
+}
+
+h3 {
+	font-size: 70px;
+}
+
+.container {
+	background: #f1f1f1;
+	padding: 15px;
+	border-radius: 10px;
+	width: 900px;
+	max-width: 90%;
+	margin: 100px auto 0;
+	color: #333;
+}
+
+.sentence-to-write {
+	margin: 20px 10px;
+	font-size: 25px;
+}
+
+.sentence-test {
+	background-color: transparent;
+	border: 2px solid #333;
+	font-size: 30px;
+	color: #333;
+	width: 100%;
+	resize: none;
+	padding: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.correct {
+	color: green;
+}
+
+.incorrect {
+	color: red;
+	text-decoration: underline;
+}
